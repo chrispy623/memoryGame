@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    display: flex;
+    align-text: center;
+    justify-content: center;
+  }
+  
+  .row {
+    text-align: center;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    margin: 1px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .card.done {
+    cursor: default;
+  }
+  
+  .card.done:hover {
+    cursor: default;
+    box-shadow: none;
+  }
+  
+  .card:hover {
+    box-shadow: inset 0px 0px 0px 1px;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .time {
+    margin-left: 5rem;
+  }
+  
+  .score {
+    margin-right: 5rem;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .magenta {
+    background-color: magenta;
+  }
+  
+  .color-hidden {
+    background-color: #eee;
+  }
+  
+  .flip {
+    transform: rotateY(180deg);
+  }
